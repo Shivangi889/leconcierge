@@ -1,8 +1,14 @@
 import React from 'react';
+import '../../App.css'
+import Header from '../Header/Header';
+import Social from '../Social/Social';
+import Footer from '../Footer'
+import about from '../../img/about_us.jpg'
 
 const AboutUs = () => {
   return (
-    <div>
+    <div> 
+    <Header/>
       {/* BANNER SECTION START */}
       <div className="home-slider inner-banner carousel slide" data-bs-ride="carousel">
         <img src="img/aboutus-banner.jpg" alt="About Us Banner" />
@@ -42,7 +48,7 @@ const AboutUs = () => {
             </div>
             <div className="col-lg-5">
               <div className="about-pic">
-                <img src="img/about_us.jpg" alt="About Us Image" />
+                <img src={about} alt="About Us Image"/>
               </div>
             </div>
             <div className="col-lg-12">
@@ -68,6 +74,8 @@ const AboutUs = () => {
         </div>
       </section>
       {/* ABOUT US SECTION END */}
+      <Social/>
+      <Footer/>
     </div>
   );
 };

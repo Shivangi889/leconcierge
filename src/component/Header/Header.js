@@ -40,7 +40,7 @@ const Header = () => {
                     <li>
                       <a href="aboutus.html">About</a>
                     </li>
-                    {/* <li>
+                    <li>
                       <a>Services</a>
                       <ul>
                         <li>
@@ -71,9 +71,9 @@ const Header = () => {
                           <a href="personal-assistance.html">Personal Assistance</a>
                         </li>
                       </ul>
-                    </li>*/}
+                    </li>
 
-                    <li class="nav-item dropdown">
+                    {/* <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Services
           </a>
@@ -82,7 +82,7 @@ const Header = () => {
             <li><a class="dropdown-item" href="#">Another action</a></li>
             <li><a class="dropdown-item" href="#">Something else here</a></li>
           </ul>
-        </li>
+        </li> */}
 
 
 

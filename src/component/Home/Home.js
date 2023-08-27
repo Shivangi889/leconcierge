@@ -10,9 +10,10 @@ import luxury from '../../img/luxury-car-rental.jpg';
 import banking from '../../img/banking.jpg';
 import accounting from '../../img/accounting-tax-insurance.jpg';
 import visa from '../../img/visa-services.jpg';
-// import bgbusiness from '../../img/business-setup-background.jpg'
-// import AboutUs from '../Aboutus/Aboutus';
-// import { Link } from 'react-router-dom';
+// import bgbusiness from '../../img/business-setup-background.jpg
+import AboutUs from '../Aboutus/Aboutus';
+
+import { Link } from 'react-router-dom';
 import './Home.css';
 
 const Home = () => {
@@ -46,13 +47,12 @@ const Home = () => {
                   utmost care and attention to detail.
                 </p>
 
-                {/* <div className="appointment-btn">
-                  <a href="aboutus.html" className="appointment-btn">Read More</a>
-                </div> */}
+                
 
-                {/* <div className="appointment-btn">
-                  <Link to="AboutUs" className="appointment-btn">Read More</Link>
-                </div> */}
+                <div className="appointment-btn">
+                  <Link to="about" className="appointment-btn">Read More</Link>
+                </div>
+
               </div>
             </div>
 

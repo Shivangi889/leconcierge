@@ -3,7 +3,8 @@ import '../../App.css'
 import Header from '../Header/Header';
 import Social from '../Social/Social';
 import Footer from '../Footer'
-import about from '../../img/about_us.jpg'
+import aboutus from '../../img/about_us.jpg';
+import about from '../../img/aboutus-banner.jpg'
 
 const AboutUs = () => {
   return (
@@ -11,7 +12,7 @@ const AboutUs = () => {
     <Header/>
       {/* BANNER SECTION START */}
       <div className="home-slider inner-banner carousel slide" data-bs-ride="carousel">
-        <img src="img/aboutus-banner.jpg" alt="About Us Banner" />
+        <img src={about} alt="About Us Banner" />
         <div className="text-overlay">
           <h2>About us</h2>
         </div>
@@ -48,7 +49,8 @@ const AboutUs = () => {
             </div>
             <div className="col-lg-5">
               <div className="about-pic">
-                <img src={about} alt="About Us Image"/>
+                
+                <img src={aboutus} alt=" "/>
               </div>
             </div>
             <div className="col-lg-12">

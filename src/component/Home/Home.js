@@ -11,14 +11,15 @@ import banking from '../../img/banking.jpg';
 import accounting from '../../img/accounting-tax-insurance.jpg';
 import visa from '../../img/visa-services.jpg';
 // import bgbusiness from '../../img/business-setup-background.jpg
-import AboutUs from '../Aboutus/Aboutus';
 
 import { Link } from 'react-router-dom';
 import './Home.css';
+import Header from '../Header/Header';
 
 const Home = () => {
   return (
     <div>
+	<Header/>
       <div className="home-slider carousel slide" data-bs-ride="carousel">
         <div className="home-slider-video">
           <video width="100%" height="600" loop autoPlay muted playsInline>

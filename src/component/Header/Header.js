@@ -1,7 +1,8 @@
-import React from 'react';
-import './Header.css';
-
-import logo from '../../img/logo.png';
+import React from "react";
+import "./Header.css";
+import { Link } from "react-router-dom";
+import logo from "../../img/logo.png";
+// import AboutUs from '../Aboutus/Aboutus';
 
 const Header = () => {
   return (
@@ -33,42 +34,49 @@ const Header = () => {
                 >
                   <ul className="d-lg-flex">
                     <li>
-                      <a href="index.html" className="nav-link">
+                      {/* <a href="index.html" className="nav-link">
                         Home
-                      </a>
+                      </a> */}
+
+                      <Link to="/home" className="nav-link">
+                        Home
+                      </Link>
                     </li>
                     <li>
-                      <a href="aboutus.html">About</a>
+                      <Link to="/about">About</Link>
+                      {/* <a href="aboutus.html">About</a> */}
                     </li>
                     <li>
-                      <a>Services</a>
+                      <Link>Services</Link>
                       <ul>
                         <li>
-                          <a href="new-business-setup.html">New Business Setup</a>
+                          <Link to="/business">New Business Setup</Link>
                         </li>
                         <li>
-                          <a href="visa-services.html">Visa Services</a>
+                          <Link to="/visaServices">Visa Services</Link>
                         </li>
                         <li>
-                          <a href="banking-mortgage-services.html">Banking & Mortgage Services</a>
+                          <Link to="/banking">Banking & Mortgage Services</Link>
                         </li>
                         <li>
-                          <a href="property-management.html">Property Management</a>
+                          <Link to="/property">Property Management</Link>
                         </li>
                         <li>
-                          <a href="accounting-tax-insurance.html">Accounting, Tax & Insurance</a>
+                          <Link to="/accounting">
+                            Accounting, Tax & Insurance
+                          </Link>
                         </li>
                         <li>
-                          <a href="luxury-car-rental.html">Luxury Car Rental</a>
+                          <Link to="/luxury">Luxury Car Rental</Link>
                         </li>
                         <li>
-                          <a href="luxury-yacht-rental.html">Luxury Yacht Rental</a>
+                          <Link to="/yacht">Luxury Yacht Rental</Link>
                         </li>
                         <li>
-                          <a href="private-jet-services.html">Private Jet Services</a>
+                          <Link to="/privatejet">Private Jet Services</Link>
                         </li>
                         <li>
-                          <a href="personal-assistance.html">Personal Assistance</a>
+                          <Link to="/personal">Personal Assistance</Link>
                         </li>
                       </ul>
                     </li>
@@ -84,25 +92,17 @@ const Header = () => {
           </ul>
         </li> */}
 
-
-
-
-
-
-
-
-
-                    <li> 
-                      <a href="#">Career</a>
+                    <li>
+                      <Link href="#">Career</Link>
                     </li>
                     <li>
-                      <a href="contact.html">Contact</a>
+                      <Link to="/contact">Contact</Link>
                     </li>
                   </ul>
                 </div>
                 <div className="call-us">
-                  <a href="#">E-mail</a>
-                  <a href="#">Call Us</a>
+                  <Link to="#">E-mail</Link>
+                  <Link to="#">Call Us</Link>
                 </div>
               </nav>
             </div>

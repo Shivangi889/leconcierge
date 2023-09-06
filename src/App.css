@@ -660,6 +660,7 @@ p.info-1 {
 .conact-form {
   padding: 0px;
   border-radius: 4px;
+  background-color:red ;
 }
 .conact-form .input-filed input {
   width: 100%;
@@ -686,7 +687,7 @@ p.info-1 {
 .conact-form .submi-btn {
   display: flex;
   align-items: center;
-  justify-content: end;
+  justify-content: flex-end;
 }
 .contact-address {
   margin-top: 40px;

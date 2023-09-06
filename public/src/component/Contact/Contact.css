@@ -1,0 +1,63 @@
+.conact-form {
+    padding: 0px;
+    border-radius: 4px;
+  }
+  .conact-form .input-filed input {
+    width: 100%;
+    background: #fff;
+    outline: none;
+    border: 1px solid #ddd;
+    padding: 15px 10px;
+    margin-bottom: 15px;
+  }
+  .conact-form textarea {
+    width: 100%;
+    border: 1px solid #ddd;
+    height: 130px;
+    padding: 10px;
+    outline: none;
+  }
+  .conact-form .submi-btn button {
+    background: #fcc304;
+    border: none;
+    padding: 10px 30px;
+    margin-top: 10px;
+    border-radius: 4px;
+  }
+  .conact-form .submi-btn {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .contact-address {
+    margin-top: 40px;
+  }
+  .current-address-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-right: 20px;
+  }
+  .current-address-pic img {
+    width: 40px;
+  }
+  .current-address {
+    margin: 40px 0;
+    border-bottom: 1px solid #ddd;
+    width: 90%;
+  }
+  .solution-column a {
+    color: #fff;
+  }
+  h3.over-text {
+    visibility: hidden;
+  }
+  .copy-right-text {
+    border-top: 1px solid #333;
+    margin-top: 20px;
+    padding-top: 10px;
+  }
